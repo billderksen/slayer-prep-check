@@ -1,0 +1,301 @@
+{
+ "_comment": [
+  "Wiki group/page names that are not in-game items, mapped to in-game item names (best first). A key may carry a '#slot' suffix to resolve differently per equipment slot."
+ ],
+ "God blessing": [
+  "Holy blessing",
+  "Unholy blessing",
+  "Peaceful blessing",
+  "Honourable blessing",
+  "War blessing",
+  "Ancient blessing"
+ ],
+ "God capes": [
+  "Imbued saradomin cape",
+  "Imbued zamorak cape",
+  "Imbued guthix cape",
+  "Saradomin cape",
+  "Zamorak cape",
+  "Guthix cape"
+ ],
+ "God cape": [
+  "Imbued saradomin cape",
+  "Imbued zamorak cape",
+  "Imbued guthix cape",
+  "Saradomin cape",
+  "Zamorak cape",
+  "Guthix cape"
+ ],
+ "God capes#Imbuing": [
+  "Imbued saradomin cape",
+  "Imbued zamorak cape",
+  "Imbued guthix cape"
+ ],
+ "Imbued god cape": [
+  "Imbued saradomin cape",
+  "Imbued zamorak cape",
+  "Imbued guthix cape"
+ ],
+ "God book": [
+  "Holy book",
+  "Unholy book",
+  "Book of balance",
+  "Book of war",
+  "Book of law",
+  "Book of darkness"
+ ],
+ "Blessed body": [
+  "Saradomin d'hide body",
+  "Zamorak d'hide body",
+  "Guthix d'hide body",
+  "Armadyl d'hide body",
+  "Bandos d'hide body",
+  "Ancient d'hide body"
+ ],
+ "Blessed d'hide body": [
+  "Saradomin d'hide body",
+  "Zamorak d'hide body",
+  "Guthix d'hide body",
+  "Armadyl d'hide body",
+  "Bandos d'hide body",
+  "Ancient d'hide body"
+ ],
+ "Blessed dragonhide body": [
+  "Saradomin d'hide body",
+  "Zamorak d'hide body",
+  "Guthix d'hide body",
+  "Armadyl d'hide body",
+  "Bandos d'hide body",
+  "Ancient d'hide body"
+ ],
+ "Blessed chaps": [
+  "Saradomin chaps",
+  "Zamorak chaps",
+  "Guthix chaps",
+  "Armadyl chaps",
+  "Bandos chaps",
+  "Ancient chaps"
+ ],
+ "Blessed dragonhide chaps": [
+  "Saradomin chaps",
+  "Zamorak chaps",
+  "Guthix chaps",
+  "Armadyl chaps",
+  "Bandos chaps",
+  "Ancient chaps"
+ ],
+ "Blessed coif": [
+  "Saradomin coif",
+  "Zamorak coif",
+  "Guthix coif",
+  "Armadyl coif",
+  "Bandos coif",
+  "Ancient coif"
+ ],
+ "Blessed d'hide coif": [
+  "Saradomin coif",
+  "Zamorak coif",
+  "Guthix coif",
+  "Armadyl coif",
+  "Bandos coif",
+  "Ancient coif"
+ ],
+ "Blessed vambraces": [
+  "Saradomin bracers",
+  "Zamorak bracers",
+  "Guthix bracers",
+  "Armadyl bracers",
+  "Bandos bracers",
+  "Ancient bracers"
+ ],
+ "Blessed bracers": [
+  "Saradomin bracers",
+  "Zamorak bracers",
+  "Guthix bracers",
+  "Armadyl bracers",
+  "Bandos bracers",
+  "Ancient bracers"
+ ],
+ "Blessed boots": [
+  "Saradomin d'hide boots",
+  "Zamorak d'hide boots",
+  "Guthix d'hide boots",
+  "Armadyl d'hide boots",
+  "Bandos d'hide boots",
+  "Ancient d'hide boots"
+ ],
+ "Blessed d'hide boots": [
+  "Saradomin d'hide boots",
+  "Zamorak d'hide boots",
+  "Guthix d'hide boots",
+  "Armadyl d'hide boots",
+  "Bandos d'hide boots",
+  "Ancient d'hide boots"
+ ],
+ "Blessed shield": [
+  "Saradomin d'hide shield",
+  "Zamorak d'hide shield",
+  "Guthix d'hide shield",
+  "Armadyl d'hide shield",
+  "Bandos d'hide shield",
+  "Ancient d'hide shield"
+ ],
+ "Barrows equipment#head": [
+  "Ahrim's hood",
+  "Dharok's helm",
+  "Guthan's helm",
+  "Karil's coif",
+  "Torag's helm",
+  "Verac's helm"
+ ],
+ "Barrows equipment#body": [
+  "Ahrim's robetop",
+  "Dharok's platebody",
+  "Guthan's platebody",
+  "Karil's leathertop",
+  "Torag's platebody",
+  "Verac's brassard"
+ ],
+ "Barrows equipment#legs": [
+  "Ahrim's robeskirt",
+  "Dharok's platelegs",
+  "Guthan's chainskirt",
+  "Karil's leatherskirt",
+  "Torag's platelegs",
+  "Verac's plateskirt"
+ ],
+ "Barrows equipment#weapon": [
+  "Ahrim's staff",
+  "Dharok's greataxe",
+  "Guthan's warspear",
+  "Karil's crossbow",
+  "Torag's hammers",
+  "Verac's flail"
+ ],
+ "Barrows helm": [
+  "Ahrim's hood",
+  "Dharok's helm",
+  "Guthan's helm",
+  "Karil's coif",
+  "Torag's helm",
+  "Verac's helm"
+ ],
+ "Barrows body": [
+  "Ahrim's robetop",
+  "Dharok's platebody",
+  "Guthan's platebody",
+  "Karil's leathertop",
+  "Torag's platebody",
+  "Verac's brassard"
+ ],
+ "Barrows legs": [
+  "Ahrim's robeskirt",
+  "Dharok's platelegs",
+  "Guthan's chainskirt",
+  "Karil's leatherskirt",
+  "Torag's platelegs",
+  "Verac's plateskirt"
+ ],
+ "Cape of Accomplishment": [
+  "Attack cape",
+  "Strength cape",
+  "Defence cape",
+  "Ranging cape",
+  "Prayer cape",
+  "Magic cape",
+  "Runecraft cape",
+  "Construct. cape",
+  "Hitpoints cape",
+  "Agility cape",
+  "Herblore cape",
+  "Thieving cape",
+  "Crafting cape",
+  "Fletching cape",
+  "Slayer cape",
+  "Hunter cape",
+  "Mining cape",
+  "Smithing cape",
+  "Fishing cape",
+  "Cooking cape",
+  "Firemaking cape",
+  "Woodcutting cape",
+  "Farming cape",
+  "Sailing cape",
+  "Quest point cape",
+  "Achievement diary cape",
+  "Music cape",
+  "Max cape"
+ ],
+ "Cape of Accomplishment#Equipment bonuses": [
+  "Attack cape",
+  "Strength cape",
+  "Defence cape",
+  "Ranging cape",
+  "Prayer cape",
+  "Magic cape",
+  "Runecraft cape",
+  "Construct. cape",
+  "Hitpoints cape",
+  "Agility cape",
+  "Herblore cape",
+  "Thieving cape",
+  "Crafting cape",
+  "Fletching cape",
+  "Slayer cape",
+  "Hunter cape",
+  "Mining cape",
+  "Smithing cape",
+  "Fishing cape",
+  "Cooking cape",
+  "Firemaking cape",
+  "Woodcutting cape",
+  "Farming cape",
+  "Sailing cape",
+  "Quest point cape",
+  "Achievement diary cape",
+  "Music cape",
+  "Max cape"
+ ],
+ "Cape of Accomplishment (t)": [
+  "Attack cape(t)",
+  "Strength cape(t)",
+  "Defence cape(t)",
+  "Ranging cape(t)",
+  "Prayer cape(t)",
+  "Magic cape(t)",
+  "Runecraft cape(t)",
+  "Construct. cape(t)",
+  "Hitpoints cape(t)",
+  "Agility cape(t)",
+  "Herblore cape(t)",
+  "Thieving cape(t)",
+  "Crafting cape(t)",
+  "Fletching cape(t)",
+  "Slayer cape(t)",
+  "Hunter cape(t)",
+  "Mining cape(t)",
+  "Smithing cape(t)",
+  "Fishing cape(t)",
+  "Cooking cape(t)",
+  "Firemaking cape(t)",
+  "Woodcutting cape(t)",
+  "Farming cape(t)",
+  "Sailing cape(t)",
+  "Quest point cape (t)",
+  "Achievement diary cape (t)",
+  "Music cape (t)",
+  "Max cape"
+ ],
+ "Crystal armour#head": [
+  "Crystal helm"
+ ],
+ "Crystal armour#body": [
+  "Crystal body"
+ ],
+ "Crystal armour#legs": [
+  "Crystal legs"
+ ],
+ "Any melee special attack weapon": [],
+ "Ranged top": [],
+ "Ranged legs": []
+}

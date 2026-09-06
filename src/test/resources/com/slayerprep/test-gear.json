@@ -1,0 +1,67 @@
+{
+ "generated": "2026-09-06T00:00:00+00:00",
+ "source": "test",
+ "items": {"Abyssal whip": 4151, "Slayer helmet (i)": 11865},
+ "generic": {
+  "page": "Slayer training",
+  "styles": {"Melee": {"slots": {"weapon": [["Abyssal whip"]]}}, "Ranged": {"slots": {"weapon": [["Toxic blowpipe"]]}}}
+ },
+ "tasks": {
+  "Broken": {"page": "x"},
+  "Greater demons": {
+   "styles": {},
+   "variants": {
+    "Tormented demon": {
+     "page": "Tormented Demon/Strategies",
+     "styles": {
+      "Melee": {"slots": {"weapon": [["Scythe of Vitur"]]}},
+      "Ranged": {
+       "slots": {
+        "head": [["Slayer helmet (i)", "Void ranger helm"], ["Masori mask (f)"], ["Crystal helm"]],
+        "body": [["Masori body (f)", "Elite void top"], ["Crystal body"], ["Black d'hide body"]],
+        "legs": [["Masori chaps (f)", "Elite void robe"], ["Crystal legs"], ["Black d'hide chaps"]],
+        "weapon": [["Twisted bow"], ["Toxic blowpipe"], ["Bow of Faerdhinen"], ["Rune crossbow"]],
+        "shield": [["Twisted buckler"]],
+        "ammo": [["Dragon arrow"], ["Rada's blessing 4"], ["Ruby bolts (e)"]],
+        "hands": [["Zaryte vambraces", "Void knight gloves"], ["Barrows gloves"]]
+       },
+       "notes": {
+        "Slayer helmet (i)": ["task"],
+        "Void ranger helm": ["void"], "Elite void top": ["void"], "Elite void robe": ["void"], "Void knight gloves": ["void"],
+        "Crystal helm": ["crys"], "Crystal body": ["crys"], "Crystal legs": ["crys"], "Bow of Faerdhinen": ["crys"],
+        "Twisted buckler": ["xbow"], "Ruby bolts (e)": ["xbow"],
+        "Dragon arrow": ["darrows"], "Rada's blessing 4": ["radabless"]
+       },
+       "footnotes": {
+        "task": {"text": "When on a greater demon Slayer task.", "items": ["Greater demon"]},
+        "void": {"text": "With full Elite Void.", "items": ["Void Knight equipment"]},
+        "crys": {"text": "Only if bringing full crystal armour and the bow of Faerdhinen.", "items": ["Crystal armour", "Bow of Faerdhinen"]},
+        "xbow": {"text": "Only if bringing a crossbow.", "items": []},
+        "darrows": {"text": "If bringing a twisted bow.", "items": ["Twisted bow"]},
+        "radabless": {"text": "Only if using a bow of Faerdhinen or toxic blowpipe.", "items": ["Bow of Faerdhinen", "Toxic blowpipe"]}
+       }
+      }
+     }
+    }
+   }
+  },
+  "Gargoyles": {
+   "page": "Slayer task/Gargoyles",
+   "styles": {
+    "Melee": {
+     "slots": {
+      "weapon": [["Scythe of Vitur"], ["Abyssal whip"]],
+      "cape": [["Infernal cape"], ["God capes#Imbuing"], ["Fire cape"], ["God capes"]],
+      "head": [["Slayer helmet (i)"], ["Helm of Neitiznot", "Serpentine helm"]],
+      "ring": [["Berserker ring (i)"], ["Berserker ring"]]
+     }
+    },
+    "Ranged": {
+     "slots": {"weapon": [["Toxic blowpipe"]]}
+    }
+   }
+  }
+ },
+ "missing": ["Cows"],
+ "broken_note": "the Broken task above has no styles and must be ignored"
+}

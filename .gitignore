@@ -1,0 +1,19 @@
+# Gradle
+.gradle
+build/
+out/
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+# Eclipse / NetBeans
+.project
+.settings/
+.classpath
+nbactions.xml
+nb-configuration.xml
+nbproject/
+# OS
+.DS_Store
+CLAUDE_CODE_PROMPT.md
