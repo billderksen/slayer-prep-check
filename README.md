@@ -10,7 +10,10 @@ A RuneLite plugin for (Iron)men who want to know, the moment they get a Slayer t
 
 The plugin never contacts the wiki or any other server while you play. All wiki data is bundled at build time.
 
-![Screenshot placeholder](docs/screenshot.png)
+<p align="center">
+  <img src="docs/panel.png" alt="Side panel with required items and the gear set from your bank" width="320">
+  <img src="docs/bank-tab.png" alt="Bank tab showing only the items for the current task, grouped per attack style" width="520">
+</p>
 
 ## Setup
 
