@@ -1,0 +1,37 @@
+name: Update wiki gear data
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # first day of every month, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate gear.json from the OSRS Wiki
+        run: python3 tools/fetch_wiki_gear.py -v --out src/main/resources/com/slayerprep/gear.json
+
+      - name: Verify the plugin still builds with the new data
+        run: ./gradlew --no-daemon build
+
+      - name: Open a pull request when the data changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: update-gear-data
+          commit-message: "chore: refresh wiki gear data"
+          title: "Refresh wiki gear data"
+          body: |
+            Automated refresh of `gear.json` from the Old School RuneScape Wiki.
+            Check the workflow log for tasks without an equipment table and for parser warnings.
+          add-paths: src/main/resources/com/slayerprep/gear.json
