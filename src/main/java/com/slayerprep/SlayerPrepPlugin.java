@@ -209,7 +209,7 @@ public class SlayerPrepPlugin extends Plugin
 			gearData = GearData.load(gson);
 			aliases = GearData.loadAliases(gson);
 			gearItemNames = gearData.allItemNames();
-			log.debug("Loaded gear data generated {} with {} item names", gearData.getGenerated(), gearItemNames.size());
+			log.debug("Loaded gear data with {} item names", gearItemNames.size());
 		}
 		catch (IOException | RuntimeException e)
 		{

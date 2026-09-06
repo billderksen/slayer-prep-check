@@ -24,7 +24,6 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
 
 API_URL = "https://oldschool.runescape.wiki/api.php"
 # The wiki asks for a descriptive User-Agent with contact info. Change this.
@@ -599,8 +598,9 @@ def run_extract(out_path, verbose):
     if verbose:
         print(f"[ids]  {len(items)} of {len(names)} item names resolved to an id")
 
+    # no timestamp on purpose: the file must only change when the wiki content changes,
+    # so the monthly refresh workflow can tell real updates from noise
     payload = {
-        "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source": "Old School RuneScape Wiki (oldschool.runescape.wiki), CC BY-NC-SA 3.0",
         "items": items,
         "generic": generic,

@@ -99,7 +99,6 @@ public class GearData
 
 	private static class GearFile
 	{
-		private String generated;
 		private String source;
 		/** wiki item page name to item id, for icons. */
 		private Map<String, Integer> items;
@@ -114,12 +113,9 @@ public class GearData
 	private final Map<String, Integer> itemIds;
 	@Nullable
 	private final GearTask generic;
-	@Getter
-	private final String generated;
 
 	private GearData(GearFile file)
 	{
-		generated = file.generated;
 		Map<String, Integer> ids = new HashMap<>();
 		if (file.items != null)
 		{
